@@ -6,8 +6,8 @@
 import random
 import string
 
-number = int(input('количество паролей?'+ "\n"))
-length = int(input('длина пароля?'+ "\n"))
+number = int(input('Количество паролей?'+ "\n"))
+length = int(input('Длина пароля?'+ "\n"))
 
 def generate_password(length):
     if length < 10:
